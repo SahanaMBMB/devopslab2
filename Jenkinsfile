@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        // DOCKERHUB_CREDENTIALS = 'Docker-credentials'
+        DOCKERHUB_CREDENTIALS = 'Docker-credentials'
         IMAGE_NAME = 'sahanamb/new_docker_image'
     }
 
